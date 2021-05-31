@@ -1,0 +1,91 @@
+<!-- Flex-flow -->
+
+<style>
+  .flex-container {
+    display: flex;
+    height: 200px;
+    background-color: #f1f1f1;
+  }
+  .flex-container > div {
+    background-color: DodgerBlue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  .seconddiv {
+    align-self: flex-start;
+  }
+  .thirddiv {
+    align-self: flex-end;
+  }
+</style>
+<div class="flex-container">
+  <div>1</div>
+  <div class="seconddiv">2</div>
+  <div class="thirddiv">3</div>
+  <div>4</div>
+</div>
+
+
+
+
+<style>
+.flex-container {
+  display: flex;
+  flex-flow: wrap-reverse;
+  margin-left: -8px; 
+}
+.flex-container > div {
+  height: 250px;
+  min-width: 150px;
+  background:#f0f0f0;
+  margin: 0 8px 8px 0;  
+}
+</style>
+</head>
+<body>
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>  
+  <div>7</div>
+  <div>8</div>
+</div>
+
+
+
+
+<!-- Flex-wrap -->
+
+<style>
+                    .flex-container {
+                      display: flex;
+                      flex-flow: row wrap;
+                      flex-wrap:wrap-reverse;
+                      margin-left: -8px; 
+                    }
+                    .flex-container > div {
+                      height: 250px;
+                      min-width: 150px;
+                      background:#f0f0f0;
+                      margin: 0 8px 8px 0;  
+                    }
+                    </style>
+                    </head>
+                    <body>
+                    <div class="flex-container">
+                      <div>1</div>
+                      <div>2</div>
+                      <div>3</div>  
+                      <div>4</div>
+                      <div>5</div>
+                      <div>6</div>  
+                      <div>7</div>
+                      <div>8</div>
+                    </div>
