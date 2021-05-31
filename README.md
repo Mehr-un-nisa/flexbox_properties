@@ -5,3 +5,4 @@
 <li>flex-wrap</li>
 <li>justify-content</li>
 <li>align-self</li>
+<li>wrap-reverse</li>
